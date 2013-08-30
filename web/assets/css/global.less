@@ -1,0 +1,77 @@
+@base-url: "/assets/";
+
+@fullwidth: 100%;
+
+@onecol: 15%;
+@twocol: 32%;
+@threecol: 49%;
+@fourcol: (@twocol + @twocol);
+@fivecol: (@twocol + @threecol);
+
+@headingcolour: #fff;
+@headingsize: 35px;
+
+@fontsize: 18px;
+@fontfamily: Tahoma, Helvetica, Arial, sans-serif;
+@fontcolour: #2c3e50;
+
+@bluebg: url("@{base-url}/img/bluebg.png");
+@whitebg: url("@{base-url}/img/whitebg.png");
+@heroimg: url("@{base-url}/img/hero.jpg");
+
+@menuhomebg: #057896;
+@menubg: #ace4f3;
+
+body {margin: 0; font-size: @fontsize; font-family: @fontfamily; color: @fontcolour;}
+
+.fullwidth {width: @fullwidth; clear: both; display: block; float: left;}
+.fixedwidth {width: 1000px; margin: 0 auto;}
+
+.column {margin: 0 10px;}
+.one { width: @onecol;}
+.two { width: @twocol;}
+.three {width: @threecol;}
+.four {width: @fourcol;}
+.five {width: @fivecol;}
+.six {width: @fullwidth; margin: 0;}
+
+.start {margin-left: 0;}
+.end {margin-right: 0;}
+
+.left {float: left; margin-left: 0;}
+.right {float: right; margin-right: 0;}
+.center {margin: 0 auto; }
+
+h2 {
+    color: @headingcolour;
+    font-size: @headingsize;
+}
+
+#menu {z-index: 100; position: fixed; top: 30px; left: 30px; background: #fff; width: 150px;} 
+#menu ul {list-style-type: none; margin: 0;padding: 0;}
+#menu ul li {margin: 0;padding: 0;}
+#menu ul li a {color: #fff; text-decoration: none; width: @fullwidth; padding: 10px 0; display: block; text-align: center; background: @menubg;}
+#menu ul li:first-child a{padding: 20px 0; background: @menuhomebg;}
+
+
+#container {z-index: 1;}
+
+#top {background: @heroimg center top; height: 400px;}
+
+#about {background: @whitebg;}
+#aboutContent {}
+
+#schedule {background: @whitebg;}
+#scheduleContent {}
+
+#where {background: @whitebg; }
+
+#map-canvas { width: 100%; height: 550px;}
+
+#social {background: @bluebg;}
+#socialContent { text-align: center; padding-top: 70px;}
+#social input {width: 400px; height: 56px; border: 0; background: #aeefff; font-size: @fontsize; padding: 0 0 0 10px; float: left;}
+#social button {width: 224px; height: 56px; text-align: center; color: #fff; border: 0; float: right; background: #057896; font-size: @fontsize;}
+
+#footer {background: @whitebg;}
+#footerContent {}
