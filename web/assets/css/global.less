@@ -1,9 +1,10 @@
 @base-url: "/assets/";
-
+@base-width: 1000px;
 @fullwidth: 100%;
 
 @onecol: 15%;
 @twocol: 32%;
+@twocolend: (@twocol + 2);
 @threecol: 49%;
 @fourcol: (@twocol + @twocol);
 @fivecol: (@twocol + @threecol);
@@ -11,25 +12,24 @@
 @headingcolour: #fff;
 @headingsize: 35px;
 
-@fontsize: 18px;
-@fontfamily: Tahoma, Helvetica, Arial, sans-serif;
-@fontcolour: #2c3e50;
+@fontsize: 20px;
+@fontfamily: 'Lato', sans-serif;
+@fontcolour: #d1a646;
 
-@bluebg: url("@{base-url}/img/bluebg.png");
-@whitebg: url("@{base-url}/img/whitebg.png");
-@heroimg: url("@{base-url}/img/hero.jpg");
-
-@menuhomebg: #057896;
-@menubg: #ace4f3;
+@darkgreen: #a39d51;
+@lightgreen: #d1a646;
 
 body {margin: 0; font-size: @fontsize; font-family: @fontfamily; color: @fontcolour;}
+p {margin-top: 0; padding-top: 0;}
 
+#container {margin: 0 auto; width: @base-width;}
 .fullwidth {width: @fullwidth; clear: both; display: block; float: left;}
 .fixedwidth {width: 1000px; margin: 0 auto;}
 
-.column {margin: 0 10px;}
+.column {margin: 0 10px; float: left;}
 .one { width: @onecol;}
 .two { width: @twocol;}
+.twoend { width: @twocolend;}
 .three {width: @threecol;}
 .four {width: @fourcol;}
 .five {width: @fivecol;}
@@ -40,38 +40,55 @@ body {margin: 0; font-size: @fontsize; font-family: @fontfamily; color: @fontcol
 
 .left {float: left; margin-left: 0;}
 .right {float: right; margin-right: 0;}
-.center {margin: 0 auto; }
+.center {margin: 0 auto; text-align: center}
+
+.textDarkGreen {color: @darkgreen;}
+.textLightGreen {color: @lightgreen;}
+.darkGreen {background: @darkgreen; color: #fff!important;}
+.lightGreen {background: @lightgreen;color: #fff;}
+.textLightGreen a {color: inherit;}
+.textDarkGreen a {color: inherit;}
+
+.clear { clear: both;}
 
 h2 {
     color: @headingcolour;
     font-size: @headingsize;
 }
 
-#menu {z-index: 100; position: fixed; top: 30px; left: 30px; background: #fff; width: 150px;} 
-#menu ul {list-style-type: none; margin: 0;padding: 0;}
-#menu ul li {margin: 0;padding: 0;}
-#menu ul li a {color: #fff; text-decoration: none; width: @fullwidth; padding: 10px 0; display: block; text-align: center; background: @menubg;}
-#menu ul li:first-child a{padding: 20px 0; background: @menuhomebg;}
+#container {}
 
+header {height: 190px;margin-bottom: 40px;}
 
-#container {z-index: 1;}
-
-#top {background: @heroimg center top; height: 400px;}
-
-#about {background: @whitebg;}
+#about section {line-height: 2em; font-size: 1.2em;}
+#about a {font-size: 0.8em;}
+sup {font-size: 0.4em;}
 #aboutContent {}
 
-#schedule {background: @whitebg;}
-#scheduleContent {}
+#nextmeetup {text-align: center; color: #fff; text-transform: uppercase;}
+#nextmeetup p {font-size: 1.3em; margin: 20px 0;}
+#nextmeetup h1 {font-size: 3.4em; margin: 0 0 10px 0; padding: 0; clear: both; float: left; text-align: center; width: 100%;}
+#speakers img {float: left; margin-right: 10px;}
+#speakers p {margin: 20px 0 0 0; line-height: 1.5em;}
+#speakers h2 {margin: 20px 0 0; padding: 0;}
+#speakers section {margin: 0 0 20px 0; float: left;}
 
-#where {background: @whitebg; }
+#where {margin: 0 0 20px 0; font-size: 1.3em;}
+#where a {font-size: 0.8em; color: @darkgreen;}
+#connect {text-align: center; padding: 20px 0; text-transform: uppercase;}
+.facebook {height: 85px; float: left;width: 45%;display: block; text-align: right; padding: 20px 5% 0 0;}
+.twitter {height: 85px; float: left; width: 45%;display: block; text-align: left; padding:20px 0 0 5%;}
+#connect a {color: #fff; text-transform: lowercase;}
+#map-canvas {width: 100%; height: 510px;}
 
-#map-canvas { width: 100%; height: 550px;}
+footer {clear: both; background: #f9f9f9; height: 100px; margin: -100px 0 0;}
+footer span {padding: 38px 20px 20px;}
+footer ul {list-style-type: none;}
+footer ul li {float: left; margin: 5px 10px 0;}
 
-#social {background: @bluebg;}
-#socialContent { text-align: center; padding-top: 70px;}
-#social input {width: 400px; height: 56px; border: 0; background: #aeefff; font-size: @fontsize; padding: 0 0 0 10px; float: left;}
-#social button {width: 224px; height: 56px; text-align: center; color: #fff; border: 0; float: right; background: #057896; font-size: @fontsize;}
+#strap {font-size: 0.8em; float: right; clear: both; height: 50px;}
+#strap a {color: #fff!important;}
+#strap p {margin: 0; padding: 15px 0 0 10px;}
+#strap .right { padding: 15px 15px 0 0;}
 
-#footer {background: @whitebg;}
-#footerContent {}
+#directions {position: relative;right: -817px;top: -500px;}
