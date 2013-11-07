@@ -8,7 +8,6 @@
                 <section id="aboutcontent" class="four column start">
                     <p class="textLightGreen">A community of designers and developers working to refresh the web design and development industry in the Cambridge area.</p>
                     <p class="textDarkGreen">We meet every couple of months to share ideas, network, learn, promote local talent and make our cities better.<br>
-                        <a href="http://lanyrd.com/2013/refcam/" target="_blank">Find out more on Lanyrd</a>
                     </p>
                 </section>
                 <?php include 'nextmeetup.php'; ?>
