@@ -1,4 +1,4 @@
-    <?php include 'header.php'; ?>
+    <?php include 'includes/header.php'; ?>
 
             <!-- first section -->
             <div id="about">
@@ -7,7 +7,7 @@
                     <p class="textDarkGreen">We meet every couple of months to share ideas, network, learn, promote local talent and make our cities better.<br>
                     </p>
                 </section>
-                <?php include 'nextmeetup.php'; ?>
+                <?php include 'includes/nextmeetup.php'; ?>
             
             </div>
             <!--// first section -->
@@ -58,4 +58,4 @@
             <div id="map-canvas"></div>
             <div id="directions"><a href="https://www.google.com/maps/preview#!data=!1m4!1m3!1d2289!2d0.1223454!3d52.2074008!4m30!3m15!1m0!1m4!2s0x47d87095d95bb29b%3A0xade5e50e00eec178!3m2!3d52.2074008!4d0.1223454!3m8!1m3!1d24417542!2d-95.677068!3d37.0625!3m2!1i1440!2i719!4f13.1!5m11!1m10!1s52.2074008%2C0.1223454!4m8!1m3!1d24417542!2d-95.677068!3d37.0625!3m2!1i1440!2i719!4f13.1!7m1!3b1&fid=0"><img src="assets/img/directions.png" alt="Google map directions"></a></div>
             <!--// map -->
-    <?php include 'footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>

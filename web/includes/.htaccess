@@ -1,0 +1,3 @@
+# Block public access
+Order deny,allow
+Deny from all

@@ -1,7 +1,4 @@
-    <?php
-        include 'header.php';
-        $map=false;
-    ?>
+    <?php include 'includes/header.php' ?>
 
             <!-- first section -->
             <div id="about">
@@ -10,7 +7,7 @@
                     <p class="textDarkGreen">We meet every couple of months to share ideas, network, learn, promote local talent and make our cities better.<br>
                     </p>
                 </section>
-                <?php include 'nextmeetup.php'; ?>
+                <?php include 'includes/nextmeetup.php'; ?>
             
             </div>
             <!--// first section -->
@@ -25,7 +22,7 @@
                     <div class="eventContent">
                         <p>We've recently kicked Refresh off again with a meetup in September at a new venue, the <a href="http://www.thecambridgebrewhouse.com">Cambridge Brew House</a></p>
 
-                        <p><a href="http://www.garethrushgrove.com/">Gareth Rushgrove</a> talked about the Gov.uk project (link to: https://www.gov.uk/) and lessons he's learnt on running large websites. It was a fascinating talk that provoked lots of talk in the bar afterwards. Gareth's slides are available at <a href="https://speakerdeck.com/garethr/operating-gov-dot-uk">https://speakerdeck.com/garethr/operating-gov-dot-uk</a></p>
+                        <p><a href="http://www.garethrushgrove.com/">Gareth Rushgrove</a> talked about the <s href="https://www.gov.uk/">Gov.uk project</a> and lessons he's learnt on running large websites. It was a fascinating talk that provoked lots of talk in the bar afterwards. Gareth's slides are available at <a href="https://speakerdeck.com/garethr/operating-gov-dot-uk">https://speakerdeck.com/garethr/operating-gov-dot-uk</a></p>
 
                         <p><a href="http://www.simonrjones.net/">Simon Jones</a> talked about recent developments in PHP including regular release cycles, improvements to OO and the excellent new password_hash function in PHP 5.5. Simon's slides are available at <a href="http://www.slideshare.net/simonrjones/modern-php">http://www.slideshare.net/simonrjones/modern-php</a></p>
 
@@ -74,4 +71,4 @@ license for ExpressionEngine, from the kind people at <a href="http://ellislab.c
 
             </div>
 
-    <?php include 'footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>

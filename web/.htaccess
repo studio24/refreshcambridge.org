@@ -1,0 +1,4 @@
+# Setup site URLs
+RewriteEngine On
+RewriteRule ^about          about.php
+RewriteRule ^past-events    past-events.php
