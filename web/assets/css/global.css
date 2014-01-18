@@ -255,6 +255,10 @@ sup {
   color: #bb3e00;
   text-decoration: none; }
 
+#where img {
+    margin: 0.6em 0;
+}
+
 .facebook {
   height: 85px;
   float: left;

@@ -1,5 +1,5 @@
     <!-- footer -->
-            <footer id="footer" class="full width <?php if($map===false) { echo "nomap";}?>">
+            <footer id="footer" class="full width">
                 <span class="left">Proudly Sponsored by</span>
                 <ul class="right">
                     <li><a href="http://www.studio24.net" target="_blank"><img src="assets/img/studio24.png" alt="Studio 24"></a></li>

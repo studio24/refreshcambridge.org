@@ -15,7 +15,7 @@
             <!-- second section -->
             <div id="speakers" class="four column start">
                 <section class="lightGreen">
-                    <img src="assets/img/gareth.jpg" alt="Photo of Gareth Rushgrove">
+                    <img src="assets/img/jag-reehal.jpg" alt="">
                     <p>Speaker</p>
                     <h2>Jag Reehal</h2>
                     <p>Jag is talking about how Grunt, Bower and Angular.js can revolutionise your workflow for building web apps.</p>
@@ -35,7 +35,7 @@
                 <div id="where" class="six column end right">
                     <p class="center">7pm for a 7:30pm start at</p>
 
-                    <p class="center"><img src="assets/img/brew.png" alt="Cambridge Brew House Logo"></p>
+                    <p class="center"><img src="assets/img/brew.png" alt="Cambridge Brew House"></p>
                     <p class="center">
                         <a href="http://www.meetup.com/Refresh-Cambridge">Tell us you're attending at Meetup.com</a>
                     </p>
