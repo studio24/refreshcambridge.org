@@ -12,7 +12,7 @@
                     
                     
                 </section>
-                <?php include 'includes/nextmeetup.php'; ?>
+                <?php include 'includes/next-meetup.php' ?>
             
             </div>
             

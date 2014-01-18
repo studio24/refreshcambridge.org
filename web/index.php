@@ -7,7 +7,7 @@
                     <p class="textDarkGreen">We meet every couple of months to share ideas, network, learn, promote local talent and make our cities better.<br>
                     </p>
                 </section>
-                <?php include 'includes/nextmeetup.php'; ?>
+                <?php include 'includes/next-meetup.php' ?>
             
             </div>
             <!--// first section -->

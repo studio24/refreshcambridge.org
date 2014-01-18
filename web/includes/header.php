@@ -26,7 +26,7 @@
                 <div class="break">
                     <a name="top"><img src="assets/img/logo.png" alt="Refresh Cambridge logo"></a>
                     <div class="menu">
-                        <?php include 'menu.php'; ?>
+                        <?php include 'includes/menu.php' ?>
                     </div>
                 </div>
             </header>
