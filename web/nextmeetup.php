@@ -8,8 +8,8 @@ $mapUrl = "https://www.google.com/maps/preview#!data=!1m4!1m3!1d2289!2d0.1223454
 ?>
 				<aside id="nextmeetup" class="twoend column end darkGreen">
                     <p>Next Meetup</p>
-                    <h1>2<sup>nd</sup> Dec</h1>
+                    <h1>5<sup>th</sup> Feb</h1>
                     <div class="clear"></div>
-                    <p>Responsive Design Pub meetup</p>
-                    <p><a href="http://www.meetup.com/Refresh-Cambridge/events/149750912/">Register via meetup</a></p>
+                    <p>Responsive workflow with Grunt</p>
+                    <p><a href="http://www.meetup.com/Refresh-Cambridge/events/158792722/">Register via meetup</a></p>
                 </aside>
