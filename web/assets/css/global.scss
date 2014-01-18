@@ -48,7 +48,7 @@ $lightgreen: #d1a646;
 body {margin: 0; font-size: $fontsize; font-family: $fontfamily; color: $fontcolour;}
 p {margin-top: 0; padding-top: 0;}
 
-#container {margin: 0 auto; width: $fullwidth;}
+#container {margin: 0 auto; width: $fullwidth; overflow: hidden;}
 
 
 header {margin: 0 0 40px; float: left;clear: both; background: #fff3d8; width: 100%; padding: 0 0 30px 0;}

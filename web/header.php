@@ -9,6 +9,8 @@
         <meta name="keywords" content="refresh, cambridge, uk, web standards, design, web development, usability, accessibility, web 2.0">
         <meta name="description" content="Refresh Cambridge is a community of designers and developers working to refresh the creative, technical, and professional culture of New Media endeavors in their areas. Promoting design, technology, usability, accessibility and standards." />
 
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="shortcut icon" href="/favicon.png">
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="assets/css/global.css" />
 

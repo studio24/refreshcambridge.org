@@ -14,18 +14,20 @@
 
             <!-- second section -->
             <div id="speakers" class="four column start">
-                <section class="darkGreen">
+                <section class="lightGreen">
                     <img src="assets/img/gareth.jpg" alt="Photo of Gareth Rushgrove">
                     <p>Speaker</p>
-                    <h2>Gareth Rushgrove</h2>
-                    <p>Gareth Rushgrove is talking about his experiences running large web sites on the GOV.UK project.</p>
+                    <h2>Jag Reehal</h2>
+                    <p>Jag is talking about how Grunt, Bower and Angular.js can revolutionise your workflow for building web apps.</p>
                 </section>
+<!--
                 <section class="lightGreen">
                     <img src="assets/img/simon.jpg" alt="Photo of Simon Jones">
                     <p>Speaker</p>
                     <h2>Simon Jones</h2>
                     <p>Simon Jones will be talking about some of the interesting developments in the PHP world over the past year.</p>
                 </section>
+-->
             </div>
             <!--// second section -->
             <div id="whereconnect" class="twoend column end right">
