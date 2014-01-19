@@ -12,19 +12,19 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="shortcut icon" href="/favicon.png">
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="assets/css/global.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/global.css" />
 
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-        <script src="assets/js/main.js" type="text/javascript"></script>
+        <script src="/assets/js/main.js" type="text/javascript"></script>
 
     </head>
     <body>
         <!-- Header -->
             <header>
                 <div class="break">
-                    <a name="top"><img src="assets/img/logo.png" alt="Refresh Cambridge logo"></a>
+                    <a name="top"><img src="/assets/img/logo.png" alt="Refresh Cambridge logo"></a>
                     <div class="menu">
                         <?php include 'includes/menu.php' ?>
                     </div>

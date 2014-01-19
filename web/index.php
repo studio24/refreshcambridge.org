@@ -35,7 +35,7 @@
                 <div id="where" class="six column end right">
                     <p class="center">7pm for a 7:30pm start at</p>
 
-                    <p class="center"><img src="assets/img/brew.png" alt="Cambridge Brew House"></p>
+                    <p class="center"><img src="/assets/img/brew.png" alt="Cambridge Brew House"></p>
                     <p class="center">
                         <a href="http://www.meetup.com/Refresh-Cambridge">Tell us you're attending at Meetup.com</a>
                     </p>
@@ -44,8 +44,8 @@
                 <div id="connect" class="darkGreen six column end right">
                     <p>Connect</p>
                     <div class="social">
-                        <span class="facebook"><a href="https://www.facebook.com/RefreshCambridge"><img src="assets/img/facebook.png" alt="Facebook"></a></span>
-                        <span class="twitter"><a href="https://twitter.com/refreshcambs"><img src="assets/img/twitter.png" alt="Twitter"></a></span>
+                        <span class="facebook"><a href="https://www.facebook.com/RefreshCambridge"><img src="/assets/img/facebook.png" alt="Facebook"></a></span>
+                        <span class="twitter"><a href="https://twitter.com/refreshcambs"><img src="/assets/img/twitter.png" alt="Twitter"></a></span>
                     </div>
                     <p>Newsletter<br><a href="http://groups.google.com/group/refreshcambridge/subscribe" target="_blank">Sign up to our mailing list</a></p>
 

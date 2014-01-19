@@ -418,31 +418,53 @@ footer ul li {
 #pastEvents:last-child {
   margin-bottom: 20px; }
 
-.event {
-  background: #f4f3eb; }
+#pastEvents article {
+  background: #f4f3eb; 
+  padding-bottom: 20px;
+  font-size: 0.8em;
+}
 
-.eventTitle {
+#pastEvents .title {
   background: #a39d51;
   padding: 30px;
-  margin: 30px 0 0 0; }
+  margin: 30px 0 14px 0; 
+  font-size: 1.2em;
+}
 
-.eventTitle span {
-  font-size: 0.6em;
-  color: #fff969; }
-
-.eventTitle h2 {
-  font-size: 1.1em;
-  margin: 0; }
-
-.eventContent {
-  padding: 20px 30px 30px;
-  color: #90773f;
+#pastEvents .title span {
   font-size: 0.8em;
-  line-height: 1.6em; }
+  color: #fff969; 
+}
 
-.eventContent a {
+#pastEvents .title span sup {
+    text-transform: uppercase;
+}
+
+#pastEvents .title h2 {
+  font-size: 1.1em;
+  margin: 0; 
+}
+
+#pastEvents article p {
+  padding: 6px 30px 0 30px;
+  color: #90773f;
+  line-height: 1.6em; 
+}
+
+
+#pastEvents article a,
+.more-events a {
   color: #bb3e00;
-  text-decoration: none; }
+  text-decoration: none; 
+  font-weight: bold;
+}
+
+.more-events {
+    float: right;
+    font-style: italic;
+    font-size: 0.8em;
+    margin: 0.6em 0 2em 0;
+}
 
 .aboutrefresh a {
   color: #bb3e00;
