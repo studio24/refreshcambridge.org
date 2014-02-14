@@ -12,15 +12,25 @@
             </div>
             <!--// first section -->
 
-            <!-- second section -->
+
+            
             <div id="speakers" class="four column start">
+
+                <section class="lightGreen">
+                    <img src="assets/img/speaking.jpg" alt="">
+                    <p>Speaker</p>
+                    <h2>You?</h2>
+                    <p>We're currently confirming details of the next Refresh event. If you have any ideas for a talk at the next Refresh <a href="http://groups.google.com/group/refreshcambridge/subscribe">please let us know</a>.</p>
+                </section>
+
+<!--
                 <section class="lightGreen">
                     <img src="assets/img/jag-reehal.jpg" alt="">
                     <p>Speaker</p>
                     <h2>Jag Reehal</h2>
                     <p>Jag is talking about how Grunt, Bower and Angular.js can revolutionise your workflow for building web apps.</p>
                 </section>
-<!--
+
                 <section class="lightGreen">
                     <img src="assets/img/simon.jpg" alt="Photo of Simon Jones">
                     <p>Speaker</p>
