@@ -2,6 +2,11 @@
 
 Website for http://refreshcambridge.org/
 
+## SASS
+The CSS is managed with SASS. To regenerate run:
+
+    sass --watch web/assets/css/global.scss:web/assets/css/global.css
+
 ## Updating pages
 The Refresh site is a simple site with a few pages. the .htaccess file contains
 details of what PHP pages run each page but it's all pretty self-explanatory.

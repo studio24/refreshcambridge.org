@@ -17,20 +17,16 @@
             <div id="speakers" class="four column start">
 
                 <section class="lightGreen">
-                    <img src="assets/img/speaking.jpg" alt="">
+                    <img src="assets/img/joelhughes.jpg" alt="">
                     <p>Speaker</p>
-                    <h2>You?</h2>
-                    <p>We're currently confirming details of the next Refresh event. If you have any ideas for a talk at the next Refresh <a href="http://groups.google.com/group/refreshcambridge/subscribe">please let us know</a>.</p>
+                    <h2>Joel Hughes</h2>
+                    <p>Joel has been working in the web industry for over 15 years and in his talk he'll cover some of the mistakes he's made 
+                    (there have been a few) and he'll look at tactics which can help. Knowing how to design websites is one thing. Knowing how 
+                    to handle the business side is something completely different. He welcomes questions (excluding those from whacko Moon 
+                    landing conspiracy theorists).</p>
+                    <p>Joel is visiting Cambridge on his roadshow promoting the new <a href="http://2014.thebusinessofwebdesign.co.uk/">Business of Web Design conference</a> in Cardiff in July.</p>
                 </section>
-
 <!--
-                <section class="lightGreen">
-                    <img src="assets/img/jag-reehal.jpg" alt="">
-                    <p>Speaker</p>
-                    <h2>Jag Reehal</h2>
-                    <p>Jag is talking about how Grunt, Bower and Angular.js can revolutionise your workflow for building web apps.</p>
-                </section>
-
                 <section class="lightGreen">
                     <img src="assets/img/simon.jpg" alt="Photo of Simon Jones">
                     <p>Speaker</p>
