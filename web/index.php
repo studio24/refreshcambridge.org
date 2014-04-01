@@ -25,6 +25,7 @@
                     to handle the business side is something completely different. He welcomes questions (excluding those from whacko Moon 
                     landing conspiracy theorists).</p>
                     <p>Joel is visiting Cambridge on his roadshow promoting the new <a href="http://2014.thebusinessofwebdesign.co.uk/">Business of Web Design conference</a> in Cardiff in July.</p>
+                    <p>Drinks for the night will be kindly provided by <a href="https://workingatbooking.com/­">Booking.com</a></p>
                 </section>
 <!--
                 <section class="lightGreen">

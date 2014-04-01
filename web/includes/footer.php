@@ -3,6 +3,7 @@
                 <span class="left">Proudly Sponsored by</span>
                 <ul class="right">
                     <li><a href="http://www.studio24.net" target="_blank"><img src="/assets/img/studio24.png" alt="Studio 24"></a></li>
+                    <li><a href="https://workingatbooking.com/"><img src="/assets/img/booking_logo.png" alt="Booking.com" class="bookingcom" /></a></li>
                     <li><a href="http://www.creativefront.org" target="_blank"><img src="/assets/img/creative.png" alt="Creative Front"></a></li>
                     <li><a href="http://www.anglia.ac.uk" target="_blank"><img src="/assets/img/anglia.png" alt="Anglia Ruskin University"></a></li>
                 </ul>
