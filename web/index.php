@@ -17,15 +17,20 @@
             <div id="speakers" class="four column start">
 
                 <section class="lightGreen">
-                    <img src="assets/img/joelhughes.jpg" alt="">
+                    <img src="assets/img/seb-lee-delisle.jpg" alt="">
                     <p>Speaker</p>
-                    <h2>Joel Hughes</h2>
-                    <p>Joel has been working in the web industry for over 15 years and in his talk he'll cover some of the mistakes he's made 
-                    (there have been a few) and he'll look at tactics which can help. Knowing how to design websites is one thing. Knowing how 
-                    to handle the business side is something completely different. He welcomes questions (excluding those from whacko Moon 
-                    landing conspiracy theorists).</p>
-                    <p>Joel is visiting Cambridge on his roadshow promoting the new <a href="http://2014.thebusinessofwebdesign.co.uk/">Business of Web Design conference</a> in Cardiff in July.</p>
-                    <p>Drinks for the night will be kindly provided by <a href="https://workingatbooking.com/­">Booking.com</a></p>
+                    <h2>Seb Lee-Delisle</h2>
+
+                    <p><a href="http://seb.ly/">Seb Lee-Delisle</a> is a digital artist and speaker who uses computers to engage with people and inspire them. He creates
+                    exciting digital art experiments such as <a href="http://pixelpyros.org/">PixelPyros</a> and 
+                    <a href="http://lunartrails.com/">Lunar Trails</a> and he's coming to Cambridge in June to talk to Refresh!</p>
+
+                    <p>Venturing into the unknown is scary, but fun things happen when you try new things. Seb will show you that it's 
+                    rewarding to get out of your comfort zone and blur the boundaries between artist and coder. He'll be talking about 
+                    his recent experiments with lasers for his digital fireworks display, PixelPyros, and of course, expect some dangerous 
+                    live demos.</p>
+
+                    <p>The event is sponsored by <a href="http://www.studio24.net/­">Studio 24</a></p>
                 </section>
 <!--
                 <section class="lightGreen">
@@ -39,14 +44,7 @@
             <!--// second section -->
             <div id="whereconnect" class="twoend column end right">
 
-                <div id="where" class="six column end right">
-                    <p class="center">7pm for a 7:30pm start at</p>
-
-                    <p class="center"><img src="/assets/img/brew.png" alt="Cambridge Brew House"></p>
-                    <p class="center">
-                        <a href="http://www.meetup.com/Refresh-Cambridge">Tell us you're attending at Meetup.com</a>
-                    </p>
-                </div>
+                <?php include 'includes/next-meetup-location.php' ?>
 
                 <div id="connect" class="darkGreen six column end right">
                     <p>Connect</p>
@@ -64,5 +62,37 @@
             <!-- Map -->
             <div id="map-canvas"></div>
             <div id="directions"><a href="https://www.google.com/maps/preview#!data=!1m4!1m3!1d2289!2d0.1223454!3d52.2074008!4m30!3m15!1m0!1m4!2s0x47d87095d95bb29b%3A0xade5e50e00eec178!3m2!3d52.2074008!4d0.1223454!3m8!1m3!1d24417542!2d-95.677068!3d37.0625!3m2!1i1440!2i719!4f13.1!5m11!1m10!1s52.2074008%2C0.1223454!4m8!1m3!1d24417542!2d-95.677068!3d37.0625!3m2!1i1440!2i719!4f13.1!7m1!3b1&fid=0"><img src="assets/img/directions.png" alt="Google map directions"></a></div>
+            <script>
+// Homepage map
+var brewhouse = new google.maps.LatLng(52.2074008,0.1223454);
+var computingcentre = new google.maps.LatLng(52.207855,0.148506);
+
+// Set next event location
+var nextEventLocation = computingcentre;
+
+// Load map
+$(document).ready(function() {            
+    
+    function initialize() {
+      var mapOptions = {
+        zoom: 16,
+        center: nextEventLocation,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        mapTypeControl: false
+      };
+      var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+      var icon = "/assets/img/marker.png";
+      var myLatLng = nextEventLocation;
+      var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          icon: icon
+      });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+});
+            </script>
             <!--// map -->
+
     <?php include 'includes/footer.php'; ?>

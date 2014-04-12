@@ -1,8 +1,9 @@
 
-		<aside id="nextmeetup" class="twoend column end darkGreen">
+				<!-- Next meetup title, date and Meetup link -->
+				<aside id="nextmeetup" class="twoend column end darkGreen">
                     <p>Next Meetup</p>
-                    <h1>2<sup>nd</sup> April</h1>
+                    <h1>18<sup>th</sup> June</h1>
                     <div class="clear"></div>
-                    <p>The Business of Web Design</p>
-                    <p><a href="http://www.meetup.com/Refresh-Cambridge/events/172341652/">Register via meetup</a></p>
+                    <p>CreativeJS - getting artistic with code</p>
+                    <p><a href="http://www.meetup.com/Refresh-Cambridge/events/174770592/">Register via meetup</a></p>
                 </aside>

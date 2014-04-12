@@ -285,6 +285,7 @@ footer .bookingcom {
 
 
 #where {margin: 20px 0 20px 0; font-size: 1.3em; padding: 5px 0;
+
 @media #{$phone} {
 		width: 320px!important;
 		max-width: 320px!important;
@@ -335,3 +336,5 @@ footer .bookingcom {
 .aboutrefresh p {color: #90773f; line-height: 24px; font-size: 16px;}
 
 .aboutImg img {width: 100%;}
+
+.location { margin: 1em 0; }

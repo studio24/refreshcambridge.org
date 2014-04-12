@@ -20,14 +20,7 @@
             <!--// second section -->
             <div id="whereconnect" class="twoend column end right">
 
-                <div id="where" class="six column end right">
-                    <p class="center">7pm for a 7:30pm start at</p>
-
-                    <p class="center"><img src="/assets/img/brew.png" alt="Cambridge Brew House Logo"></p>
-                    <p class="center">
-                        <a href="http://www.meetup.com/Refresh-Cambridge">Tell us you're attending at Meetup.com</a>
-                    </p>
-                </div>
+                <?php include 'includes/next-meetup-location.php' ?>
 
                 <div id="connect" class="darkGreen six column end right">
                     <p>Connect</p>
