@@ -47,6 +47,15 @@ $lightgreen: #d1a646;
 
 body {margin: 0; font-size: $fontsize; font-family: $fontfamily; color: $fontcolour;}
 p {margin-top: 0; padding-top: 0;}
+a:link {
+    color: #6b6823;
+}
+a:visited {
+    color: #618446;
+}
+a:hover, a:active {
+    color: #bb3e00;
+}
 
 #container {margin: 0 auto; width: $fullwidth; overflow: hidden;}
 
@@ -74,13 +83,13 @@ header .menu ul li a:hover,header .menu ul li a.active { color: #bb3e00;}
 		width: 100%!important;
 		clear: both;
 	}
-	
+
 	@media #{$desktop} {
 		width: $twocol;
 	}
 
 }
-.twoend { 
+.twoend {
 	@media #{$phone} {
 		width: 320px!important;
 		max-width: 320px!important;
@@ -91,11 +100,11 @@ header .menu ul li a:hover,header .menu ul li a.active { color: #bb3e00;}
 		margin: 0!important;
 		clear: both;
 	}
-	
+
 	@media #{$desktop} {
 		width: $twocolend;
 	}
-	
+
 }
 .three {width: $threecol;}
 .four {
@@ -108,11 +117,11 @@ header .menu ul li a:hover,header .menu ul li a.active { color: #bb3e00;}
 		width: 100%!important;
 		clear: both;
 	}
-	
+
 	@media #{$desktop} {
 		width: $fourcol;
 	}
-	
+
 }
 .five {width: $fivecol;}
 .six {width: $fullwidth; margin: 0;}
@@ -149,17 +158,17 @@ sup {font-size: 0.4em;}
 	}
 }
 #nextmeetup p {font-size: 1.3em; margin: 10px 0; padding: 0 10px;}
-#nextmeetup h1 {font-size: 3.4em; margin: 0 0 10px 0; padding: 0; clear: both; float: left; text-align: center; width: 100%;}
+#nextmeetup h1 {font-size: 2em; margin: 0 0 10px 0; padding: 0; clear: both; float: left; text-align: center; width: 100%;}
 #nextmeetup a {background: #e7332f; border: 3px solid #fff; border-radius: 5px; color: #fff; text-decoration: none; width: 200px; padding: 10px 30px; display: block; margin: 0 auto 10px;}
 #speakers {margin: 20px 0 0 0;
 	@media #{$phone} {
 		padding: 0 0 20px 0;
 	}
 	@media #{$tablet} {
-		
+
 	}
 	@media #{$desktop} {
-		
+
 	}
 }
 #speakers img {float: left; margin-right: 10px;
@@ -167,25 +176,25 @@ sup {font-size: 0.4em;}
 		width: 320px;
 	}
 	@media #{$tablet} {
-		
+
 	}
 	@media #{$desktop} {
-		
+
 	}
 }
 #speakers p {
-    margin: 20px 0 0 0; 
-    line-height: 1.5em; 
+    margin: 20px 0 0 0;
+    line-height: 1.5em;
     padding: 0 67px 14px 14px;
 
 	@media #{$phone} {
 		padding: 0 20px;
 	}
 	@media #{$tablet} {
-		
+
 	}
 	@media #{$desktop} {
-		
+
 	}
 }
 #speakers h2 {margin: 10px 0 0; padding: 0;
@@ -293,11 +302,11 @@ footer .bookingcom {
 
 	@media #{$tablet} {
 		width: 50%!important;
-	
+
 	}
-	
+
 	@media #{$desktop} {
-		
+
 	}
 }
 
@@ -313,9 +322,9 @@ footer .bookingcom {
 		height: 260px;
 		margin: 20px 0 0 0;
 	}
-	
+
 	@media #{$desktop} {
-		
+
 	}
 }
 

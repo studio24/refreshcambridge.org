@@ -8,29 +8,27 @@
                     </p>
                 </section>
                 <?php include 'includes/next-meetup.php' ?>
-            
+
             </div>
             <!--// first section -->
 
 
-            
+
             <div id="speakers" class="four column start">
 
                 <section class="lightGreen">
-                    <img src="assets/img/seb-lee-delisle.jpg" alt="">
-                    <p>Speaker</p>
-                    <h2>Seb Lee-Delisle</h2>
 
-                    <p><a href="http://seb.ly/">Seb Lee-Delisle</a> is a digital artist and speaker who uses computers to engage with people and inspire them. He creates
-                    exciting digital art experiments such as <a href="http://pixelpyros.org/">PixelPyros</a> and 
-                    <a href="http://lunartrails.com/">Lunar Trails</a> and he's coming to Cambridge in June to talk to Refresh!</p>
+                    <img src="assets/img/september.jpg" alt="Speakers at September Refresh" style="margin: 10px;">
 
-                    <p>Venturing into the unknown is scary, but fun things happen when you try new things. Seb will show you that it's 
-                    rewarding to get out of your comfort zone and blur the boundaries between artist and coder. He'll be talking about 
-                    his recent experiments with lasers for his digital fireworks display, PixelPyros, and of course, expect some dangerous 
-                    live demos.</p>
+                    <p>To close the summer holidays with a bang, Refresh Cambridge presents a triple-header of speakers doing Nice Things on and off the interwebs:</p>
 
-                    <p>The event is sponsored by <a href="http://www.studio24.net/­">Studio 24</a></p>
+                    <p>The <a href="http://www.e-luminatefestivals.co.uk/">e-Luminate Cambridge Festival</a> connects ambitious art with ingenious technology to shed light on low carbon innovation - their co-founder and MD will be here to talk about how they collaborate with local artists and designers;</p>
+
+                    <p><a href="http://www.arcusglobal.com/">Arcus Global</a> are a Cambridge-based cloud services provider to the public sector and not-for-profits - their CTO will join us to discuss their scalable, open-source and budget-friendly solutions;</p>
+
+                    <p>And finally, we'll have a talk on the volunteer-led kids coding initiative, <a href="https://www.codeclub.org.uk/">Code Club</a>, including how you can get involved.</p>
+
+                    <p>The event is sponsored by <a href="http://www.studio24.net/­">Studio 24</a> and <a href="http://www.arcusglobal.com/">Arcus Global</a>.</p>
                 </section>
 <!--
                 <section class="lightGreen">
@@ -68,11 +66,11 @@ var brewhouse = new google.maps.LatLng(52.2074008,0.1223454);
 var computingcentre = new google.maps.LatLng(52.207855,0.148506);
 
 // Set next event location
-var nextEventLocation = computingcentre;
+var nextEventLocation = brewhouse;
 
 // Load map
-$(document).ready(function() {            
-    
+$(document).ready(function() {
+
     function initialize() {
       var mapOptions = {
         zoom: 16,
