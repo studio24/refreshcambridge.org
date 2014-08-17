@@ -28,7 +28,7 @@
 
                     <p>And finally, we'll have a talk on the volunteer-led kids coding initiative, <a href="https://www.codeclub.org.uk/">Code Club</a>, including how you can get involved.</p>
 
-                    <p>The event is sponsored by <a href="http://www.studio24.net/­">Studio 24</a> and <a href="http://www.arcusglobal.com/">Arcus Global</a>.</p>
+                    <p>The event is sponsored by <a href="http://www.arcusglobal.com/">Arcus Global</a>.</p>
                 </section>
 <!--
                 <section class="lightGreen">
